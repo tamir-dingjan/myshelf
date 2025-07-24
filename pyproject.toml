@@ -8,7 +8,9 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "flask (>=3.1.1,<4.0.0)"
+    "flask (>=3.1.1,<4.0.0)",
+    "pyaml (>=25.7.0,<26.0.0)",
+    "pytest (>=8.4.1,<9.0.0)"
 ]
 
 [tool.poetry]
